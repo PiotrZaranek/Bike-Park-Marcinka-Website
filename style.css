@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: Roboto Condensed;
+    font-size: 30px;
+}
+
+body
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header video
+{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+header
+{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    -webkit-box-shadow: 1px 22px 44px 11px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 22px 44px 11px rgba(0, 0, 0, 1);
+    box-shadow: 1px 22px 44px 11px rgba(0, 0, 0, 1);
+}
+
+#logo
+{
+    background-color: #fff;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    background-image: url("graphic/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position-y: 5px;
+    background-position-x: 2px;
+    -webkit-box-shadow: 13px 13px 47px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 13px 13px 47px 1px rgba(0, 0, 0, 1);
+    box-shadow: 13px 13px 47px 1px rgba(0, 0, 0, 1);
+    transition: transform 0.5s;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20vh;
+    text-align: center;
+}
+
+#logo:hover
+{
+    transition-duration: 0.5s;
+    transform: scale(110%);
+}
+
+section.content
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.track
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+section.trackInfo
+{
+    float: left;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 50%;
+}
+
+section.descripton
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+h1
+{
+    margin-bottom: 80px;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+p
+{
+    margin-bottom: 50px;
+}
+
+iframe
+{
+    margin-bottom: 50px;
+    transition-duration: 0.5s;
+}
+
+iframe:hover
+{
+    transition-duration: 0.5s;
+    transform: scale(104%);
+}
+
+h2.colorh2B
+{
+    background-color: #4e8d69;
+    letter-spacing: 10px;
+    font-size: 55px;
+    height: 75px;
+    padding: 15px;
+}
+
+h2.colorh2P
+{
+    background-color: #4b81cf;
+    letter-spacing: 10px;
+    font-size: 55px;
+    height: 75px;
+    padding: 15px;
+}
+
+h2.colorh2S
+{
+    background-color: #be363a;
+    letter-spacing: 10px;
+    font-size: 55px;
+    height: 75px;
+    padding: 15px;
+}
+
+h2.colorh2T
+{
+    background-color: #72278e;
+    letter-spacing: 10px;
+    font-size: 55px;
+    height: 75px;
+    padding: 15px;
+}
+
+img.infoImg
+{
+    width: 85px;
+    height: 85px;
+}
+
+video.moreAboutTruck
+{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+p.leftP
+{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.toFacebook
+{
+    color: white;
+    text-decoration: none;
+}
+
+i
+{
+    font-size: 100px;
+    background-color: #4b81cf;
+    border-radius: 20px;  
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+i:hover
+{
+    transition-duration: 0.5s;
+    background-color: #6da3ef;  
+}
+
+footer
+{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #222;
+    padding: 10px;
+}
+
+span
+{
+    font-size: 15px;
+    background-color: #222;
+}
+
+section.construct
+{
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 4;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+img.fInfo
+{
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0)
+}
+
+h2.fInfoh2
+{
+    background: rgba(0, 0, 0, 0)
+}
